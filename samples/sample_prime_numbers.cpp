@@ -2,7 +2,7 @@
 
 #include <iomanip>
 
-// #define USE_SET // Использовать класс TSet,
+#define USE_SET // Использовать класс TSet,
                 // закоментировать, чтобы использовать битовое поле
 
 #ifndef USE_SET // Использовать класс TBitField
@@ -11,21 +11,8 @@
 
 int main()
 {
-	try {
-		TBitField bf(5),bf1(7),res(7);
-		cin >> res;
-		cout << ~res;
-		
-		
-		
-		
-	}
-	catch (char *e)
-	{
-		cout << e << endl;
-	}
-	system("pause");
-	/*
+	
+	
   int n, m, k, count;
 
   setlocale(LC_ALL, "Russian");
@@ -59,7 +46,7 @@ int main()
     }
   cout << endl;
   cout << "В первых " << n << " числах " << count << " простых" << endl;
-  */
+  
 }
 #else
 
@@ -67,6 +54,7 @@ int main()
 
 int main()
 {
+	
   int n, m, k, count;
 
   setlocale(LC_ALL, "Russian");
@@ -100,6 +88,7 @@ int main()
     }
   cout << endl;
   cout << "В первых " << n << " числах " << count << " простых" << endl;
+  
 }
 
 #endif
